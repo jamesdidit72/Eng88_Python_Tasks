@@ -40,6 +40,8 @@ while active:
             current_year = 2021
         years = current_year - age  # calculates the age
         print("OMG {}, you are {} years old so you were born in {}".format(name, age, years))  # prints out a statement containing the variables
+        age_in_hours = (age * 365) * 24
+        print("You have also lived for at least {} hours!".format(age_in_hours))
     else:
         active = False
 
