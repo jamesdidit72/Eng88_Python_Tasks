@@ -1,5 +1,3 @@
-# def age_calc():
-#     return 2021 - age
 active = True
 while active:
     continue_ = input("Do you wish to continue? Y/N ")
