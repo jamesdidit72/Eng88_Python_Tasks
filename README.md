@@ -1,31 +1,30 @@
 # Python Task 2 from Trello
 
 ## Task 
-Program calculate year of birth!
-Timings
-30-60 Minutes
+#### Program calculate year of birth!
+#### Timings: 30-60 Minutes
 
-Summary
+### Summary
 Cool, we've used strings to make a program that made a welcome message. Now let's use some numerical types.
 
 Create program that calculates the year of birth.
 
-Tasks
-define the variables age and name
-make a calculation for the year in which the person was born
-print out "OMG <person>, you are <age> years old so you were born in <year>" with the correct values
-Second Part
-prompt the user for input and re-assign the variable age and name
-figure out a way to account for if the persons birthday has already happened this year or not
-Extra
-go look into the library time
-print out the amount of hour this person has lived
-Acceptance Criteria
-program defines the variable age and name
-program prints the string "OMG <person>, you are <age> years old so you were born in <year>"
+### Tasks
+- define the variables age and name
+- make a calculation for the year in which the person was born
+- print out "OMG <person>, you are <age> years old so you were born in <year>" with the correct values
+### Second Part
+- prompt the user for input and re-assign the variable age and name
+- figure out a way to account for if the persons birthday has already happened this year or not
+### Extra
+- go look into the library time
+- print out the amount of hour this person has lived
+### Acceptance Criteria
+- program defines the variable age and name
+- program prints the string "OMG <person>, you are <age> years old so you were born in <year>"
 
 
-#### Task 1
+### Task 1
 ```python
 active = True
 while active:
@@ -47,3 +46,30 @@ while active:
 
 print("I hope this was informative!")
 ```
+### second part
+```python
+    # continue_ = input("Do you wish to continue? Y/N ")
+    # if continue_.upper() == "Y":
+        # birthday_passed = input("has your birthday already passed? Y/N ")
+        # if birthday_passed.upper() == "Y":
+           #  current_year = 2022
+        # else:
+            # current_year = 2021
+```
+### extras
+```python
+        # age_in_hours = (age * 365) * 24
+        # print("You have also lived for at least {} hours!".format(age_in_hours))
+   
+```
+## commands used
+- git add .
+- git commit -m ""
+- git push -u
+
+## commands to initiate 
+- git init
+- git add "file name"
+- git commit -m "description of what's happening"
+- git branch -M main
+- git push -u origin main
